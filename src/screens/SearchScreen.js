@@ -1,10 +1,12 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import SearchInput from '../components/SearchInput'
 
 const SearchScreen = () => {
     return (
         <View>
             <Text style={styles.textScreen}>SearchScreen</Text>
+            <SearchInput/>
         </View>
     )
 }
