@@ -4,11 +4,15 @@ import { StyleSheet, Text, View,TextInput } from 'react-native'
 const SearchInput = () => {
     return (
         <View>
-            <TextInput type="text" placeholder="Search"/>
+            <TextInput style={styles.searchInput} type="text" placeholder="Search"/>
         </View>
     )
 }
 
 export default SearchInput
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+        SearchInput: {
+
+    }
+})
